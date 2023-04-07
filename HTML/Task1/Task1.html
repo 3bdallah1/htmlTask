@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+    form {text-align: center;}
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    iframe {position: relative;
+        margin: auto;
+        top: 50%;
+        left: 18%;
+    }
+</style> 
+
+<title>Survey form</title>
+</head>
+<body>
+<img src="image.png" width="150" height="150">
+<h1>Interests Survey form</h1>
+<form action="/action_page.php">
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="yourself">Tell us a litte about yourself:</label>
+    <textarea id="yourself" name="yourself" rows="4" cols="30"></textarea><br><br>
+
+    <label>Do you exercise at home?</label>
+    <input type="radio" id="yes" name="exercise" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" id="No" name="exercise" value="No">
+    <label for="No">No</label><br>
+
+    <p>How do you like to read about your favorite topics?</p>
+    <input type="checkbox" id="fav1" name="fav1" value="Books">
+    <label for="fav1">Books</label>
+    <input type="checkbox" id="fav2" name="fav2" value="OnlineResources">
+    <label for="fav2">Online resources</label>
+    <input type="checkbox" id="fav3" name="fav3" value="PhoneApps">
+    <label for="fav3">Phone apps</label>
+    <input type="checkbox" id="fav4" name="fav4" value="Magazines">
+    <label for="fav4">Magazines</label><br><br>
+
+    <label for="movies">What type of movies do you like?</label>
+    <select id="movies" name="movies">
+        <option value="comedy">comedy</option>
+        <option value="romance">romance</option>
+        <option value="thriller">thriller</option>
+        <option value="horror">horror</option>
+    </select><br><br>
+    <input type="submit" value="Submit form">
+</form>
+
+<br><p>Learn more about us:</p><br>
+
+<iframe width="1000" height="621" src="https://www.youtube.com/embed/ImPpbYW4vGA" title="IEEE CS Membership Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+
+</body>
+</html>
